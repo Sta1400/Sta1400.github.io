@@ -1,12 +1,126 @@
-# Privacy Policy for Intersector For Instagram Last updated: [Current Date] ##
-Data Collection This extension: - Does not collect or store any personal data -
-Only processes Instagram follower data that is publicly available - Temporarily
-stores usernames entered by the user locally in their browser - Uses Instagram
-session cookies only to verify login status ## Data Storage - All data is stored
-locally in your browser - No data is transmitted to external servers - Saved
-usernames can be cleared at any time using the reset button ## Third Party
-Access - This extension does not share any data with third parties - All
-operations are performed locally in your browser ## Contact For any privacy
-concerns, please contact: [Your Contact Email] ## Changes to This Policy We may
-update this privacy policy from time to time. You will be notified of any
-changes through the extension's update notes.
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy - Intersector For Instagram</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      h1,
+      h2 {
+        color: #333;
+      }
+      .section {
+        margin-bottom: 20px;
+      }
+      .contact-form {
+        background: #f5f5f5;
+        padding: 20px;
+        border-radius: 5px;
+      }
+      .form-group {
+        margin-bottom: 15px;
+      }
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+      input,
+      textarea {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+      }
+      button {
+        background: #007bff;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      button:hover {
+        background: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Privacy Policy for Intersector For Instagram</h1>
+    <p>Last updated: <span id="currentDate"></span></p>
+
+    <div class="section">
+      <h2>Data Collection</h2>
+      <ul>
+        <li>Does not collect or store any personal data</li>
+        <li
+          >Only processes Instagram follower data that is publicly available</li
+        >
+        <li
+          >Temporarily stores usernames entered by the user locally in their
+          browser</li
+        >
+        <li>Uses Instagram session cookies only to verify login status</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Data Storage</h2>
+      <ul>
+        <li>All data is stored locally in your browser</li>
+        <li>No data is transmitted to external servers</li>
+        <li
+          >Saved usernames can be cleared at any time using the reset button</li
+        >
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Third Party Access</h2>
+      <ul>
+        <li>This extension does not share any data with third parties</li>
+        <li>All operations are performed locally in your browser</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Contact Us</h2>
+      <div class="contact-form">
+        <form id="privacyContactForm">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Your Privacy Concern:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Changes to This Policy</h2>
+      <p
+        >We may update this privacy policy from time to time. You will be
+        notified of any changes through the extension's update notes.</p
+      >
+    </div>
+
+    <script>
+      document.getElementById("currentDate").textContent =
+        new Date().toLocaleDateString();
+    </script>
+  </body>
+</html>
